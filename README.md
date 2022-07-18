@@ -2,7 +2,7 @@
 
 Why IntuneWingetInstaller? You don't need to package applications one by one, just use parameters to install what you want.
 
-It uses Winget.exe to install public released software like Adobe Reader, 7-Zip, VLC player etc for Intune MDM Endpoint Manager
+It uses Winget.exe to install public released software like Adobe Reader, 7-Zip, VLC player etc for Microsoft Intune MDM Endpoint Manager.
 
  1. Find the correct application name by winget search. For example "winget search 7-zip". you might find multiple results.
  2. Uploade the Shareware-Installation.intunewin to Intune console as Win32 application
