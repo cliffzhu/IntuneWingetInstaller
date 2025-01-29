@@ -11,4 +11,4 @@ powershell -executionpolicy bypass -file Shareware-Installation.ps1 "install" "7
  4. Use unistallation command as below:
 powershell -executionpolicy bypass -file Shareware-Installation.ps1 "uninstall" "7-zip"
 
-**Note:** With Microsoft Windows 10/11 with clean OS installation, Winget.exe is not available during OOBE/Enrollment stage so the script might fail. Using the script for on-demand apps or user assigned apps is recommended.
+**Note:** With Microsoft Windows 10/11 clean OS installation, Winget.exe is not available during OOBE/Enrollment stage so the script might fail. Using the script for on-demand apps or user assigned apps is recommended.
